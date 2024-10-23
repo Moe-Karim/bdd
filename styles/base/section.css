@@ -54,7 +54,6 @@ header  h2{
 .foundation >div>div>img{
     height: 75px;
     width: 100%;
-
 }
 .foundation >div>div>p{
     line-height: 1.5;
@@ -64,17 +63,22 @@ header  h2{
 }
 .economy:hover{
     background-color:#DCEBEC;
-
 }
 .design:hover{
     background-color: #EFF5F1;
-
 }
 .sustainability:hover{
     background-color: #ECEFDC;
-
 }
 .social:hover{
     background-color: #F6E2E7;
-
+}
+.vision{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255,0)), url(../../assets/Shared-Space-at-BDD.png);
+    background-attachment: fixed;
+    height: 450px;
+}
+.vision h1{
+    font-weight: 600;
+    font-size: 30px;
 }
