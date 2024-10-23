@@ -140,3 +140,38 @@ header  h2{
 .preferred >div>div{
     width: 200px;
 }
+.trending{
+    text-align: left;
+    background-image: url(../../assets/bg-icon-empty.png);
+    background-position-y: center;
+}
+.trending button{
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.trending h3{
+    border-bottom: 1px solid #E8E8E8;
+    float: left;
+    width: 100%;
+}
+.trending h5{
+    float: left;
+    width: 100%;
+}
+.trending img{
+    height:100%;
+    width: 100%;
+    display: block;
+}
+.trending>div>div{
+    width: 350px;
+    height:400px;
+    background-color: #fff;
+}
+.first-trend{
+    margin: 40px 0 0 40px;
+}
+.second-trend{
+    margin-top: 20px;
+}
