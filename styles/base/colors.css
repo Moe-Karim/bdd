@@ -1,3 +1,12 @@
 .primary-bg-color{
     background-color: #046bd2;
 }
+.secondary-bg-color{
+    background-color: #F5F5F5;
+}
+.primary-txt-color{
+    color: white;
+}
+.secondary-txt-color{
+    color: #646464;
+}

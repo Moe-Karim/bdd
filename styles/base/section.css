@@ -36,7 +36,45 @@ header{
 }
 header  h2{
     font-size: 35px;
-    color: white;
     text-align: center;
     font-weight: bolder;
+}
+.foundation{
+    margin: 40px;
+}
+.foundation > div{
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    height: 400px;
+    width: 20%;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+.foundation >div>div>img{
+    height: 75px;
+    width: 100%;
+
+}
+.foundation >div>div>p{
+    line-height: 1.5;
+}
+.community:hover{
+    background-color: #DCE8EF;
+}
+.economy:hover{
+    background-color:#DCEBEC;
+
+}
+.design:hover{
+    background-color: #EFF5F1;
+
+}
+.sustainability:hover{
+    background-color: #ECEFDC;
+
+}
+.social:hover{
+    background-color: #F6E2E7;
+
 }
