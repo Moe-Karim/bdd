@@ -120,3 +120,23 @@ header  h2{
     height: 15%;
     width: 15%;
 }
+.icon:hover{
+    cursor: pointer;
+}
+.preferred{
+    background-image: url(../../assets/parallax-light.jpg);
+    background-attachment: fixed;
+    background-position-y: center;
+    height: 350px;
+    padding: 40px;
+    text-align: left;
+    font-size: 15px;
+}
+.preferred img{
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+.preferred >div>div{
+    width: 200px;
+}
