@@ -82,3 +82,41 @@ header  h2{
     font-weight: 600;
     font-size: 30px;
 }
+.join{
+    margin: 30px 10px 20px 0px;
+}
+.join img{
+    display: block;
+    width: 100%;
+}
+.join > div>div{
+    text-align: center;
+    font-size: 16px;
+    height: 600px;
+    padding: 5px;
+    width: 25%;
+}
+.join > div>div:hover,a:hover{
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 30%);
+    transition: all 0.5s;
+}
+.join h3{
+    margin-top: 40px;
+}
+
+.join ul li,h3{
+    list-style-image:url(../../assets/1bdb97fd-0c96-4794-b2a1-fa2bb42798ef.png);
+    line-height: 1.8;
+    width: 60%;
+    text-wrap: wrap;
+    text-align: start;
+
+}
+.join a{
+    text-decoration: none;
+    padding: 10px;
+}
+.icon{
+    height: 15%;
+    width: 15%;
+}
