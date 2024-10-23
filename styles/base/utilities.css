@@ -26,9 +26,23 @@
 .space-evenly{
     justify-content: space-evenly;
 }
-.grow{
+.grow1{
     flex-grow: 1;
 }
+.grow2{
+    flex-grow: 2;
+}
+.grow3{
+    flex-grow: 3;
+}
+.grow4{
+    flex-grow: 4;
+}
 .rounded{
-    border-radius: 10px;
+    border-radius: 30px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
 }

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    height: 150px;
+    width: 80%;
+}
+.navbar img{
+    height: auto;
+    width: 94px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul> li,.navbar ul> li> a{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul>li:hover{
+    background-color:rgba(209, 208, 208, 0.326);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+header{
+    background-image:url(../../assets/slide2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1024px;
+}
+header  h2{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
